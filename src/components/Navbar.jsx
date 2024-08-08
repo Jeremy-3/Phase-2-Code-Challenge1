@@ -22,7 +22,7 @@ function Navbar({ transactions, setTransactions }) {
       date: formData.date,
       description: formData.description,
       category: formData.category,
-      amount: parseFloat(formData.amount),
+      amount: formData.amount,
     };
 
     fetch('http://localhost:3000/transactions', {
