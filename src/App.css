@@ -1,24 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
-/* button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #c8d6b5;
-  cursor: pointer;
-  transition: border-color 1.s;
-}
-button:hover {
-  background-color: #1b25db;
-} */
 
-.form-wrapper {
-  display: flex;
-  justify-content: center;
-}
+
 .header {
   display: flex;
   justify-content: center;
@@ -28,19 +11,7 @@ button:hover {
   font-size: 50px;
   color: blue;
 }
-.input {
-  min-width: 120px;
-  height: 30px;
 
-} 
- .form-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 5px;
-  flex-direction: column;
-}
 
 
 
