@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Buttons from './Button';
 
 function Navbar({ transactions, setTransactions }) {
   const [formData, setFormData] = useState({
@@ -85,12 +86,7 @@ function Navbar({ transactions, setTransactions }) {
       className='p-1 rounded-md border border-gray-400'
       required
     />
-    <button
-      type="submit"
-      className="bg-blue-500 text-white px-4 py-1 rounded-md hover:bg-blue-600"
-    >
-      ADD
-    </button>
+   <Buttons type="submit">ADD</Buttons>
   </form>
   </>
   );
