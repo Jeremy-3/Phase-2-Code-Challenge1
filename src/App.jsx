@@ -7,7 +7,7 @@ function App() {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/transactions")
+    fetch("https://bank-flatiron-backend.vercel.app/transactions")
       .then((res) => res.json())
       .then((transactions) => setTransactions(transactions))
       .catch((error) => console.log(error));

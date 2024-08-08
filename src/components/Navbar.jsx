@@ -25,7 +25,7 @@ function Navbar({ transactions, setTransactions }) {
       amount: formData.amount,
     };
 
-    fetch('http://localhost:3000/transactions', {
+    fetch('https://bank-flatiron-backend.vercel.app/transactions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

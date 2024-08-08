@@ -5,14 +5,14 @@ function Transactions() {
   const [transactions, setTransactions] = useState([])
   const [searchQuery, setSearchQuery] = useState("");
   useEffect(()=>{
-    fetch('http://localhost:3000/transactions')
+    fetch('https://bank-flatiron-backend.vercel.app/transactions')
     .then(res => res.json())
     .then( data => setTransactions(data))
     .catch(error => console.log("Error:", error));
   },[])
 
   const deleteTransaction=(id) =>  {
-    fetch(`http://localhost:3000/transactions/${id}`,{
+    fetch(`https://bank-flatiron-backend.vercel.app/transactions/${id}`,{
       method:'DELETE',
 
     })
