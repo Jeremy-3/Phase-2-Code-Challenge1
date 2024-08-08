@@ -96,6 +96,7 @@ To use this repo, follow these steps:
 
 - copy the URL from the URL bar.
 
+   https://phase2-code-challenge-1-iota.vercel.app/
 
 
 ## Authors
